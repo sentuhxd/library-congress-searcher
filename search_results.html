@@ -18,12 +18,32 @@
   </head>
   <body>
     <main>
-      <section>
-        <h2>Showing results for Chicago</h2>
-        <ul></ul>
+      <section id="search-engine">
+        <h2>Library of Congress Search Engine</h2>
+        <form>
+          <input type="text" placeholder="Search Topic" />
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Media Tyoe
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <button type="submit" id="submit-button">Submit</button>
+          <button type="submit" id="submit-button">Go Back</button>
+        </form>
       </section>
     </main>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
